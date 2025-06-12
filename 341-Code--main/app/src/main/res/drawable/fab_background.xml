@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer black stroke -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/black"/>
+        </shape>
+    </item>
+
+    <!-- Inner orange circle -->
+    <item android:inset="4dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/orange"/>
+        </shape>
+    </item>
+</layer-list>

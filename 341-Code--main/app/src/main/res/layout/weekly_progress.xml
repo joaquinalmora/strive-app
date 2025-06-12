@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#1E1E1E">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weekly Progress"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <!-- Day 1 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvDay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mon"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/ivStepsDay1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164517"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/ivSleepDay1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164513"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/ivCaloriesDay1"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164507"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+        <!-- Repeat for Days 2-7 (similar structure) -->
+        <!-- Day 2 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvDay2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tue"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/ivStepsDay2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164517"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/ivSleepDay2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164513"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/ivCaloriesDay2"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164507"
+                android:visibility="invisible"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvDay3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wed"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/ivStepsDay3"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164517"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/ivSleepDay3"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164513"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/ivCaloriesDay3"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164507"
+                android:visibility="invisible"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvDay4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thu"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/ivStepsDay4"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164517"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/ivSleepDay4"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164513"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/ivCaloriesDay4"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164507"
+                android:visibility="invisible"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvDay5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fri"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/ivStepsDay5"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164517"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/ivSleepDay5"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164513"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/ivCaloriesDay5"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164507"
+                android:visibility="invisible"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvDay6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sat"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/ivStepsDay6"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164517"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/ivSleepDay6"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164513"
+                android:visibility="invisible"/>
+
+            <ImageView
+                android:id="@+id/ivCaloriesDay6"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/screenshot_2025_04_06_164507"
+                android:visibility="invisible"/>
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvDay7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sun"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:id="@+id/ivStepsDay7"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/screenshot_2025_04_06_164517"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/ivSleepDay7"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/screenshot_2025_04_06_164513"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/ivCaloriesDay7"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/screenshot_2025_04_06_164507"
+            android:visibility="invisible"/>
+        </LinearLayout>
+
+
+
+
+
+        <!-- Continue for Days 3-7 with same pattern -->
+        <!-- ... -->
+
+    </LinearLayout>
+</LinearLayout>

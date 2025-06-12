@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".AvatarActivity">
+
+    <ImageView
+        android:id="@+id/avatar_back_arrow"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/avatar_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Choose Profile Picture"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/avatar_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Select an avatar or upload your own"
+        android:textColor="@color/light_gray"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/avatar_title" />
+
+    <Button
+        android:id="@+id/upload_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/orange"
+        android:text="Upload Image"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/avatar_subtitle" />
+        
+    <!-- Custom Image Container (initially hidden) -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/custom_image_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/upload_image_button">
+        
+        <TextView
+            android:id="@+id/custom_image_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Uploaded Image"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+            
+        <FrameLayout
+            android:id="@+id/custom_image_frame"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/custom_image_label">
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/avatar_background" />
+                
+            <ImageView
+                android:id="@+id/custom_image_preview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="2dp"
+                android:scaleType="centerCrop" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/default_avatars_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Default Avatars"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/custom_image_container" />
+
+    <GridLayout
+        android:id="@+id/avatar_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:columnCount="3"
+        android:rowCount="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/default_avatars_label">
+
+        <FrameLayout
+            android:id="@+id/avatar_frame_1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp">
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/avatar_background" />
+                
+            <ImageView
+                android:id="@+id/avatar_option_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Default Avatar" />
+        </FrameLayout>
+        
+        <FrameLayout
+            android:id="@+id/avatar_frame_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp">
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/avatar_background" />
+                
+            <ImageView
+                android:id="@+id/avatar_option_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Avatar 1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/avatar_frame_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp">
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/avatar_background" />
+                
+            <ImageView
+                android:id="@+id/avatar_option_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Avatar 2" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/avatar_frame_4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp">
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/avatar_background" />
+                
+            <ImageView
+                android:id="@+id/avatar_option_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Avatar 3" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/avatar_frame_5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp">
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/avatar_background" />
+                
+            <ImageView
+                android:id="@+id/avatar_option_5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Avatar 4" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/avatar_frame_6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp">
+            
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/avatar_background" />
+                
+            <ImageView
+                android:id="@+id/avatar_option_6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:contentDescription="Avatar 5" />
+        </FrameLayout>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/save_avatar_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/orange"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:text="Save"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/avatar_grid" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

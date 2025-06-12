@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home" android:icon="@drawable/home" android:title="Home" />
+    <item android:id="@+id/nav_goals" android:icon="@drawable/check" android:title="Goals" />
+    <!-- FAB sits between these -->
+    <item android:id="@+id/nav_account_feed" android:icon="@drawable/camera" android:title="Feed" />
+    <item android:id="@+id/nav_account" android:icon="@drawable/user" android:title="Account" />
+</menu>

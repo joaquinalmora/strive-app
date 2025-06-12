@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for the FAB shape appearance -->
+    <style name="FABCircle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Style applied directly to the FloatingActionButton -->
+    <style name="CustomFAB" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="shapeAppearanceOverlay">@style/FABCircle</item>
+        <item name="backgroundTint">@color/orange</item>
+        <item name="strokeColor">@android:color/black</item>
+        <item name="strokeWidth">4dp</item>
+    </style>
+    <style name="NoIndicator" parent="">
+        <item name="android:background">@null</item>
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+    </style>
+    <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Text color -->
+        <item name="android:textColor">@android:color/white</item>
+        <!-- Hint color -->
+        <item name="android:textColorHint">@color/text_secondary</item>
+        <!-- Icon colors -->
+        <item name="closeIconTint">@android:color/white</item>
+    </style>
+
+    <style name="RoundedImageShape" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item> <!-- tweak curve radius -->
+    </style>
+</resources>

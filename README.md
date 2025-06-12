@@ -82,45 +82,44 @@
 ---
 
 ## 📁 Project Structure
+## Project Structure
 The project follows a standard Android application structure:
+*   `341-Code--main/app/src/main/java/com/example/stiveworkoutapp/`: Contains all the Java and Kotlin source code, including:
+    *   **Activities:** Screen controllers like `MainActivity`, `AccountActivity`, `GoalsActivity`, `PostsActivity`, `SettingsActivity`, etc.
+    *   **Adapters:** `PostsAdapter`, `CommentsAdapter`, `FriendsAdapter` for populating RecyclerViews.
+    *   **Models:** Data classes like `Post`, `Comment`, `Friend`, `UserProfile`.
+    *   **Handlers/Utils:** `BottomNavigationHandler`, `UserLevel`, `CommentStorage`.
+*   `341-Code--main/app/src/main/res/`: Contains all application resources:
+    *   `layout/`: XML files defining the UI for each screen and list item.
+    *   `drawable/`: Image assets, custom vector drawables, and shape definitions.
+    *   `values/`: String constants, color definitions, styles, themes, and dimension arrays.
+    *   `menu/`: XML defining the structure of the bottom navigation menu.
+    *   `mipmap/`: Launcher icons for different screen densities.
+    *   `font/`: Custom font resources.
+    *   `xml/`: Configuration files like `file_paths` for `FileProvider`.
 
-    341-Code--main/app/src/main/java/com/example/stiveworkoutapp/: Contains all the Java and Kotlin source code, including:
-        Activities: Screen controllers like MainActivity, AccountActivity, GoalsActivity, PostsActivity, SettingsActivity, etc.
-        Adapters: PostsAdapter, CommentsAdapter, FriendsAdapter for populating RecyclerViews.
-        Models: Data classes like Post, Comment, Friend, UserProfile.
-        Handlers/Utils: BottomNavigationHandler, UserLevel, CommentStorage.
-    341-Code--main/app/src/main/res/: Contains all application resources:
-        layout/: XML files defining the UI for each screen and list item.
-        drawable/: Image assets, custom vector drawables, and shape definitions.
-        values/: String constants, color definitions, styles, themes, and dimension arrays.
-        menu/: XML defining the structure of the bottom navigation menu.
-        mipmap/: Launcher icons for different screen densities.
-        font/: Custom font resources.
-        xml/: Configuration files like file_paths for FileProvider.
-
-Setup and Build
-
-    Clone the repository:
-
+## Setup and Build
+1.  **Clone the repository:**
+    ```bash
     git clone https://github.com/joaquinalmora/strive-app.git
-
-    Navigate to the project directory:
-
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
     cd strive-app/341-Code--main
-
-    Open in Android Studio:
-        Launch Android Studio.
-        Select "Open an Existing Project" and navigate to the 341-Code--main directory.
-    Gradle Sync:
-        Allow Android Studio to sync the Gradle files and download all necessary dependencies.
-    Build the Project:
-        From the Android Studio menu, select Build > Make Project.
-        Alternatively, run the following command in the terminal from the 341-Code--main directory:
-
+    ```
+3.  **Open in Android Studio:**
+    *   Launch Android Studio.
+    *   Select "Open an Existing Project" and navigate to the `341-Code--main` directory.
+4.  **Gradle Sync:**
+    *   Allow Android Studio to sync the Gradle files and download all necessary dependencies.
+5.  **Build the Project:**
+    *   From the Android Studio menu, select `Build > Make Project`.
+    *   Alternatively, run the following command in the terminal from the `341-Code--main` directory:
+        ```bash
         ./gradlew build
+        ```
+6.  **Run the Application:**
+    *   Select a target emulator or connect a physical Android device.
+    *   Click the "Run 'app'" button in Android Studio.
 
-    Run the Application:
-        Select a target emulator or connect a physical Android device.
-        Click the "Run 'app'" button in Android Studio.
-
-Note: The application is configured with minSdk = 35 and compileSdk = 35, which targets Android 15 (Vanilla Ice Cream). This may require a very recent Android Studio version and an emulator/device running Android 15 or higher.
+**Note:** The application is configured with `minSdk = 35` and `compileSdk = 35`, which targets Android 15 (Vanilla Ice Cream). This may require a very recent Android Studio version and an emulator/device running Android 15 or higher.

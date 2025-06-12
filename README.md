@@ -1,5 +1,4 @@
 # Strive Workout App (Prototype)
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/joaquinalmora/strive-app)
 
 **Strive** is a **prototype Android application** designed to help users track their fitness goals, share their progress, and connect with friends in a supportive community. It combines personal goal management with social networking features, encouraging users to stay motivated and active.
 
@@ -7,9 +6,9 @@
 
 ## 📎 Quick Links
 
-- **🧩 Figma Design:** [Strive UI Design on Figma](https://www.figma.com/design/wFugJGhi50llF3GCcyN0QN/strive-design?node-id=0-1&t=sq1zaeKJLqJSEOs6-1)
-- **📹 Walkthrough of Designed Tasks:** [YouTube – Task Walkthrough](https://youtu.be/RvhzrlbUNYE)
-- **📱 Demo Video:** [YouTube – App Demo](https://www.youtube.com/watch?v=Wld4pcqKDyM&ab_channel=SamiJaffri)
+- ** Figma Design:** [Strive UI Design on Figma](https://www.figma.com/design/wFugJGhi50llF3GCcyN0QN/strive-design?node-id=0-1&t=sq1zaeKJLqJSEOs6-1)
+- ** Walkthrough of Designed Tasks:** [YouTube – Task Walkthrough](https://youtu.be/RvhzrlbUNYE)
+- ** Demo Video:** [YouTube – App Demo](https://www.youtube.com/watch?v=Wld4pcqKDyM&ab_channel=SamiJaffri)
 
 ---
 

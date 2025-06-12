@@ -13,75 +13,57 @@
 
 ---
 
-## 🚀 Features
+## Features
 
 ### User Profile & Customization
-
-- **Account Management:** Create and edit user profiles.
-- **Avatar Selection:** Choose from default avatars or upload your own.
-- **Stats Overview:** View level, streak, and friend count.
-- **Editable Personal Info:** Update weight, height, address, etc.
+*   **Account Management:** Users can manage their profiles, including personal information like name, email, and bio.
+*   **Avatar Selection:** Personalize profiles by choosing from a set of default avatars or uploading a custom image.
+*   **Stats Overview:** The profile screen displays key stats such as user level, number of friends, and current activity streak.
+*   **Personal Information Editing:** A dedicated section in settings allows users to update details like phone number, date of birth, gender, address, weight, and height.
 
 ### Goal Tracking & Progress
-
-- **Daily Goals:** Track steps (goal: 20,000), sleep (8 hours), and calories (2,000).
-- **Manual Input:** Log progress manually.
-- **Progress Charts:** Daily and weekly visual summaries.
-- **Leveling System:** Progress by consistently hitting goals.
+*   **Daily Goals:** Set and track daily targets for steps (goal: 20,000), sleep duration (goal: 8 hours), and calories burned (goal: 2,000).
+*   **Progress Input:** Manually input daily achievements for steps, sleep, and calories.
+*   **Daily & Weekly Visualization:** View current day's progress and a weekly summary chart showing consistency for each metric.
+*   **Leveling System:** Users level up by consistently meeting their daily goals. Completing all three main goals for a day contributes to leveling up.
 
 ### Social Feed & Interaction
-
-- **Post Creation:** Share achievements or inspiration.
-- **Feed View:** Toggle between “For You” and “Following.”
-- **Like & Comment:** Engage with others’ posts.
-- **Comment Threads:** Persistent, viewable discussions.
+*   **Create Posts:** Share workout achievements, fitness milestones, or motivational content by creating posts with an image and a descriptive caption.
+*   **Post Feed:** Browse a dynamic feed with "For You" (discoverable content) and "Following" (posts from users you follow) sections.
+*   **Engagement:** Interact with posts by liking them and adding comments.
+*   **Comment System:** View and participate in discussions on posts. Comments are saved per post and can be viewed by anyone accessing the post.
 
 ### Friends System
-
-- **Friend Management:** Add and remove friends.
-- **Friend Stats:** View friends’ step/sleep/calorie data.
-- **Poke Feature:** Send friendly nudges.
-- **Top Friends Panel:** Quick-access display of top friends.
+*   **Connect with Friends:** Add and manage a list of friends within the app.
+*   **View Friend Profiles:** Access profiles of friends to see their stats (steps, sleep, calories) and their shared posts.
+*   **"Poke" Feature:** Send a quick "poke" notification to friends.
+*   **Top Friends Display:** The main account screen highlights top friends for quick access.
 
 ### Workout Discovery (Home Screen)
+*   **Curated Workout Categories:** The main screen features various workout categories like "Upperbody Calisthenics," "Lowerbody Workout," "Cardio," "Abs Workout," etc.
+*   **YouTube Integration:** Each workout category links to a relevant YouTube video providing workout guidance.
+*   **Workout Search:** Users can search for specific types of workouts.
+*   **Today's Goals Snapshot:** The home screen also provides a quick view of the user's progress towards today's goals.
 
-- **Workout Categories:** Includes calisthenics, cardio, abs, etc.
-- **YouTube Integration:** Direct links to video workouts.
-- **Search Bar:** Look up workouts by keyword.
-- **Today's Snapshot:** Summary of today’s fitness progress.
+### Application Settings
+*   **Centralized Settings:** A comprehensive settings menu allows users to configure various aspects of the app.
+*   **Privacy Controls:** Manage post sharing preferences.
+*   **(Future/Placeholder Settings):** Sections for Language, Notifications, and Storage & Data are present, indicating potential future enhancements.
 
-### Settings & Privacy
+## Tech Stack & Dependencies
+*   **Languages:** Java, Kotlin
+*   **Platform:** Android
+*   **Build Tool:** Gradle
+*   **UI Framework:** Android XML, Material Components (BottomNavigationView, CardView, FloatingActionButton, Switch, RecyclerView)
+*   **Data Persistence:**
+    *   `SharedPreferences`: Used for storing user preferences, profile information, avatar paths, post URIs, daily goal progress, user levels, and privacy settings.
+    *   `Gson`: For serializing and deserializing `Comment` objects stored in SharedPreferences.
+*   **Key Libraries:**
+    *   `androidx.appcompat`, `androidx.constraintlayout`, `androidx.core-ktx`, `androidx.activity`
+    *   `com.google.android.material:material` (for Material Design components)
+    *   `de.hdodenhof:circleimageview` (for circular image views, though primarily `ImageView` is used with custom shaping for avatars in layouts)
+    *   `com.google.code.gson:gson`
 
-- **Central Settings Menu:** All configuration in one place.
-- **Privacy Options:** Control who sees your posts.
-- **Placeholder Settings:** Language, Notifications, Storage (planned).
-
----
-
-## 🛠️ Tech Stack & Dependencies
-
-- **Languages:** Java, Kotlin
-- **Platform:** Android
-- **UI Frameworks:** Android XML, Material Components
-- **Build Tool:** Gradle
-
-### Data Persistence
-
-- `SharedPreferences`
-- `Gson` for serializing/deserializing comment data
-
-### Key Libraries
-
-- `androidx.appcompat`
-- `androidx.constraintlayout`
-- `androidx.core-ktx`
-- `com.google.android.material:material`
-- `de.hdodenhof:circleimageview`
-- `com.google.code.gson:gson`
-
----
-
-## 📁 Project Structure
 ## Project Structure
 The project follows a standard Android application structure:
 *   `341-Code--main/app/src/main/java/com/example/stiveworkoutapp/`: Contains all the Java and Kotlin source code, including:

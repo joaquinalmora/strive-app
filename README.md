@@ -11,6 +11,33 @@
 - **Demo Video:** [YouTube – App Demo](https://www.youtube.com/watch?v=Wld4pcqKDyM&ab_channel=SamiJaffri)
 
 ---
+## 📄 Project Documents
+
+Here are the key documents outlining the planning, research, design, and evaluation process behind the Strive Workout App:
+
+### 1. **Usability and User Experience Plan**  
+*Outlines the app’s core usability and UX goals, user profiles, and primary personas to guide design decisions in early development.*  
+[📎 View File](strive-reports/1.%20Usability%20and%20User%20Experience%20Plan.pdf)
+
+---
+
+### 2. **User Research & Requirements Gathering**  
+*Details primary and secondary user profiles, structured interview insights, and functional, data, and usability requirements based on user feedback.*  
+[📎 View File](strive-reports/2.%20User%20Research%20and%20Requirements%20Gathering.pdf)
+
+---
+
+### 3. **Prototype Evaluation & Iteration Report**  
+*Summarizes major tasks, wireframe designs, user feedback, and UI improvements based on two rounds of usability testing and critiques.*  
+[📎 View File](strive-reports/3.%20Prototype%20Evaluation%20and%20Iteration%20Report.pdf)
+
+---
+
+### 4. **Design Principles & Heuristic Evaluation Report**  
+*Presents the final system overview, demonstrates how key HCI design principles were implemented, and documents heuristic evaluation results with video demos.*  
+[📎 View File](strive-reports/4.%20Design%20Principles%20and%20Heuristic%20Evaluation%20Report.pdf)
+
+---
 
 ## Features
 

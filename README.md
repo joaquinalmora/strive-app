@@ -17,7 +17,7 @@ Here are the key documents outlining the planning, research, design, and evaluat
 
 ### 1. **Usability and User Experience Plan**  
 *Outlines the app’s core usability and UX goals, user profiles, and primary personas to guide design decisions in early development.*  
-[📎 View File](strive-reports/1.%20Usability%20and%20User%20Experience%20Plan.pdf)
+[View File](https://github.com/joaquinalmora/strive-app/raw/main/strive-reports/1.%20Usability%20and%20User%20Experience%20Plan.pdf)
 
 
 ### 2. **User Research & Requirements Gathering**  

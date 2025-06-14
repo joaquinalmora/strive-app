@@ -14,23 +14,16 @@
 ## Project Documents
 
 ### 1. **Usability and User Experience Plan**  
-Outlines the app’s core usability and UX goals, user profiles, and primary personas to guide design decisions in early development.  
-[View File](https://github.com/joaquinalmora/strive-app/raw/main/strive-reports/1.%20Usability%20and%20User%20Experience%20Plan.pdf)
-
+Outlines the app’s core usability and UX goals, user profiles, and primary personas to guide design decisions in early development. [View File](https://github.com/joaquinalmora/strive-app/raw/main/strive-reports/1.%20Usability%20and%20User%20Experience%20Plan.pdf)
 
 ### 2. **User Research & Requirements Gathering**  
-Details primary and secondary user profiles, structured interview insights, and functional, data, and usability requirements based on user feedback.  
-[View File](https://github.com/joaquinalmora/strive-app/raw/main/strive-reports/2.%20User%20Research%20%26%20Requirements%20Gathering.pdf)
-
+Details primary and secondary user profiles, structured interview insights, and functional, data, and usability requirements based on user feedback. [View File](https://github.com/joaquinalmora/strive-app/raw/main/strive-reports/2.%20User%20Research%20%26%20Requirements%20Gathering.pdf)
 
 ### 3. **Prototype Evaluation & Iteration**  
-Summarizes major tasks, wireframe designs, user feedback, and UI improvements based on two rounds of usability testing and critiques.  
-[View File](https://github.com/joaquinalmora/strive-app/raw/main/strive-reports/3.%20Prototype%20Evaluation%20%26%20Iteration.pdf)
-
+Summarizes major tasks, wireframe designs, user feedback, and UI improvements based on two rounds of usability testing and critiques. [View File](https://github.com/joaquinalmora/strive-app/raw/main/strive-reports/3.%20Prototype%20Evaluation%20%26%20Iteration.pdf)
 
 ### 4. **Design Principles & Heuristic Evaluation**  
-Presents the final system overview, demonstrates how key HCI design principles were implemented, and documents heuristic evaluation results with video demos.  
-[View File](https://github.com/joaquinalmora/strive-app/raw/main/strive-reports/4.%20Design%20Principles%20%26%20Heuristic%20Evaluation.pdf)
+Presents the final system overview, demonstrates how key HCI design principles were implemented, and documents heuristic evaluation results with video demos. [View File](https://github.com/joaquinalmora/strive-app/raw/main/strive-reports/4.%20Design%20Principles%20%26%20Heuristic%20Evaluation.pdf)
 
 ---
 

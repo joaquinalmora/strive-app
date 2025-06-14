@@ -6,9 +6,9 @@
 
 ## 📎 Quick Links
 
-- ** Figma Design:** [Strive UI Design on Figma](https://www.figma.com/design/wFugJGhi50llF3GCcyN0QN/strive-design?node-id=0-1&t=sq1zaeKJLqJSEOs6-1)
-- ** Walkthrough of Designed Tasks:** [YouTube – Task Walkthrough](https://youtu.be/RvhzrlbUNYE)
-- ** Demo Video:** [YouTube – App Demo](https://www.youtube.com/watch?v=Wld4pcqKDyM&ab_channel=SamiJaffri)
+- **Figma Design:** [Strive UI Design on Figma](https://www.figma.com/design/wFugJGhi50llF3GCcyN0QN/strive-design?node-id=0-1&t=sq1zaeKJLqJSEOs6-1)
+- **Walkthrough of Designed Tasks:** [YouTube – Task Walkthrough](https://youtu.be/RvhzrlbUNYE)
+- **Demo Video:** [YouTube – App Demo](https://www.youtube.com/watch?v=Wld4pcqKDyM&ab_channel=SamiJaffri)
 
 ---
 
